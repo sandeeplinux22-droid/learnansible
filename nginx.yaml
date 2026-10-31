@@ -1,6 +1,6 @@
 - name: install the nginx
-  hosts: host
-  connection: hosts
+  hosts: mongoDB
+  connection: mongoDB
   tasks:
   - name: install the nginx
     package: 
