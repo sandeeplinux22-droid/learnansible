@@ -1,7 +1,7 @@
 - name: username
   hosts: local
   connection: local
-  tasks:
+  
   vars_promt:
    - name: enter username
      debug:
