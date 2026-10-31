@@ -2,5 +2,5 @@
   hosts: local
   connection: local
   tasks: 
- - name: ping localhost
+  - name: ping localhost
     ping:
