@@ -1,5 +1,6 @@
 -name:  ping
  hosts: localhost
  connection: local
+ tasks: 
  -name: ping localhost
    ping:
