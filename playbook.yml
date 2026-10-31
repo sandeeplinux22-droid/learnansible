@@ -1,0 +1,4 @@
+-name = ping
+ hostname=local
+ id=ec2-user
+ 
