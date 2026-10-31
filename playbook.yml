@@ -1,4 +1,3 @@
--name = ping
- hostname=local
- id=ec2-user
- 
+-name:ping
+ hostname:local
+ username:ec2-user
