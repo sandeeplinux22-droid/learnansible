@@ -1,3 +1,5 @@
 -name:  ping
- hosts: local
+ hosts: localhost
  connection: local
+ -name: ping localhost
+   ping:
