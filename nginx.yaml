@@ -1,7 +1,7 @@
 - name: install the nginx
   hosts: mongoDB
-  tasks:
   become: yes
+  tasks:
   - name: install the nginx
     package: 
       name: nginx
