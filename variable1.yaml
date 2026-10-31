@@ -1,0 +1,14 @@
+- name: username
+  hosts: local
+  connection: local
+  tasks:
+  vars_promt:
+   - name: enter username
+     debug:
+      msg: "enter username"
+      private: false
+   - name: enter password
+     debgud:
+     msg: "enter password"
+     private: true
+    
