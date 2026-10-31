@@ -4,7 +4,7 @@
   tasks:
   - name: play-1 and task-1
     debug:
-     mgs: "hello from play-1 and task-1"
+     msg: "hello from play-1 and task-1"
 
 - name: play-2
   hosts: local
@@ -12,4 +12,4 @@
   tasks:
   - name: play-2 and task-2
     debug:
-     mgs: "hello from play-2 and task-2"
+     msg: "hello from play-2 and task-2"
