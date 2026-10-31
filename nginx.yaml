@@ -1,5 +1,5 @@
 - name: install the nginx
-  hosts: mongoDB
+  hosts: Frontend
   become: yes
   tasks:
   - name: install the nginx
